@@ -24,9 +24,9 @@ class _ArbitroScreenState extends State<ArbitroScreen> {
   String resultadoPartido = "";
 
   String? recibirNombreGanador() {
-    if (setsJ1 == 3)
+    if (setsJ1 == 2)
       return widget.partido.jugador1;
-    else if (setsJ2 == 3)
+    else if (setsJ2 == 2)
       return widget.partido.jugador2;
     return null;
   }
